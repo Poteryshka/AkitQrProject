@@ -1,0 +1,58 @@
+body{
+    margin: 0%;
+}
+.head{
+    position: fixed;
+    top: 0;
+    height: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-color: #0C2F47;
+}
+
+.head-button{
+    background-color: #3EB6D0;
+    /* height: 100%; */
+    width: 15%;
+    padding: 5%;
+    border-radius: 15%;
+}
+
+.image-button{
+    width: 100%;
+}
+
+.image{
+    width: 90%;
+    margin-left: 5%;
+}
+
+.container{
+    margin-top : 35%;
+    width: 90%;
+    margin-left: 5%;
+}
+
+.container-main-info{
+    
+}
+
+.header-text{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.text{
+    font-size: 1.5em;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-indent: 5%;
+}
+
+.container-tech-doc{
+    display: none;
+    font-size: 1.5em;
+}
