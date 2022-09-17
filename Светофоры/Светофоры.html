@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/style.css"/>
+	<link rel="stylesheet" href="/media.css"/>
+</head>
+<body>
+    <div class="head">
+        <div class="head-button" id="mainInfo">
+            <img class="image-button" src="/icons/iconDocument.png">
+        </div>
+        <div class="head-button" id="techDoc">
+            <img class="image-button" src="/icons/iconTechDocument.png">
+        </div>
+        <div class="head-button" id="download">
+            <img class="image-button" src="/icons/iconDownload.png">
+        </div>
+        <div class="head-button" id="ask">
+            <img class="image-button" src="/icons/iconAsk.png">
+        </div>
+    </div>
+
+    <div class="container container-main-info">
+        <h1 class="header-text">Моделирование работы перекрестка</h1>
+        <img class="image" src="/image/Сфетофоры/Светофоры.jpg">
+        <p class="text">Данный стенд демонстрирует автоматическую работу светофоров на перекрёстке. Он позволяет визуально увидеть автоматическое переключение светофоров, а также самому запрогроммировать работу системы.</p>
+        <p class="text">В стенде установлен микроконтроллер <b>ESP8266</b> c возможностью прошивки по воздуху OTA. <b>ESP8266</b> — китайский микроконтроллер (далее МК) от производителя Espressif с поддержкой WiFi-интерфейса. Управлять всем этим можно не только с браузера, но и из приложений на Android/iOS/Desktop. Если МК будет применяться там, куда не достаёт WiFi-сеть, то ESP8266 может работать в режиме точки доступа.</p>
+        <p class="text"><b>OTA (Over The Air, то есть по воздуху)</b> –тип установки обновлений. Вместо «ручного» скачивания файла прошивки и использования recovery, смартфон ловит необходимые для него файлы с серверов производителя и в автоматическом режиме производит их уста-новку.</p>
+    </div>
+
+    <div class="container container-tech-doc none">
+        <p class="text">Технические харктеристики ESP8266:</p>
+        <ul style="font-size: 1em;">
+            <li><b>Напряжение питания:</b> 3.3V (2.5-3.6V)</li>
+            <li><b>Ток потребления:</b> 300 мА при запуске и передаче данных, 35 мА во время работы, 80 мА в режиме точки доступа
+            </li>
+            <li><b>Максимальный ток пина:</b> 12 мА.</li>
+            <li><b>Flash память (память программы):</b> 1 МБ</li>
+            <li><b>Flash память (файловое хранилище):</b> 1-16 МБ в зависимости от модификации</li>
+            <li><b>EEPROM память:</b> до 4 кБ</li>
+            <li><b>SRAM память:</b> 82 кБ</li>
+            <li><b>Частота ядра:</b> 80/160 МГц</li>
+            <li><b>GPIO:</b> 11 пинов</li>
+            <li><b>ШИМ:</b> 10 пинов</li>
+            <li><b>Прерывания:</b> 10 пинов</li>
+            <li><b>АЦП:</b> 1 пин</li>
+            <li><b>I2C:</b> 1 штука (программный, пины можно назначить любые)</li>
+            <li><b>I2S:</b> 1 штука</li>
+            <li><b>SPI:</b> 1 штука</li>
+            <li><b>UART:</b> 1.5 штуки</li>
+            <li><b>WiFi связь</b></li>
+        </ul>
+    </div>
+
+    <div class="container container-download none">
+        <a>Скачать методическое указание</a>
+    </div>
+
+    <div class="container container-ask none">
+        <p>По поводу Ваших идей, вопросов и проектов можете писать на почту akitakit@mail.ru</p>
+    </div>
+
+    <script src="/script.js"></script>
+</body>
+</html>

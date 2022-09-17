@@ -1,28 +1,46 @@
+
 body{
     margin: 0%;
 }
 .head{
-    position: fixed;
     top: 0;
-    height: 10%;
+    position: fixed;
+    height: 4%;
     width: 100%;
     display: flex;
     justify-content: space-around;
-    padding-top: 5%;
-    padding-bottom: 5%;
+    padding-top: 3%;
+    padding-bottom: 3%;
     background-color: #0C2F47;
+    /* margin-bottom: 4% */
 }
 
 .head-button{
     background-color: #3EB6D0;
     /* height: 100%; */
-    width: 15%;
-    padding: 5%;
+    width: 9%;
     border-radius: 15%;
 }
 
+.head-button:hover{
+    background-color: #86c8d6;
+}
+
+#formula-image{
+    width: 50%;
+}
+
 .image-button{
-    width: 100%;
+    margin-left: 5%;
+    max-width: 90%;
+  
+    min-width: auto;
+    min-height: auto;
+    
+    height: 80%;
+    display: block;
+    margin: 0 auto;
+    /* margin-top: 10%; */
 }
 
 .image{
@@ -31,13 +49,24 @@ body{
 }
 
 .container{
-    margin-top : 35%;
+    /* top: 5%; */
+    margin-top : 20%;
     width: 90%;
     margin-left: 5%;
 }
 
-.container-main-info{
-    
+
+.container p{
+    font-size: 1.5em;
+}
+
+.container a{
+    font-size: 1.5em;
+}
+
+
+.none{
+    display: none;
 }
 
 .header-text{
@@ -46,13 +75,11 @@ body{
 }
 
 .text{
-    font-size: 1.5em;
-    margin-left: 5%;
-    margin-right: 5%;
+
     text-indent: 5%;
 }
 
 .container-tech-doc{
-    display: none;
     font-size: 1.5em;
 }
+
