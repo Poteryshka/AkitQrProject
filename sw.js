@@ -1,4 +1,4 @@
-const staticCacheName = 'site-static-v1';
+const staticCacheName = 'akitQr-static-cache-v1';
 const assets = [
     '/',
     'main.html',
@@ -23,7 +23,6 @@ const assets = [
 self.addEventListener('install', evt => {
     evt.waitUntil(
         caches.open(staticCacheName).then((cache) => {
-            console.log('caching shell assets', cache);
             cache.addAll(assets);
         })
     );
