@@ -16,7 +16,6 @@ let switchPage = function(name){
         }
     }
 }
-
 btnMainInfo.addEventListener('click', () => {
     switchPage('container-main-info')
 })
@@ -32,5 +31,3 @@ btnDownload.addEventListener('click', () => {
 btnAsk.addEventListener('click', () => {
     switchPage('container-ask')
 })
-
-
