@@ -7,31 +7,55 @@
     <title>Document</title>
     <link rel="stylesheet" href="/style.css"/>
 	<link rel="stylesheet" href="/media.css"/>
+    <script src="/vendor/js/jquery-3.3.1.slim.min.js" defer></script>
+	<script src="/vendor/js/popper.min.js" async></script>
+	<link rel="stylesheet" href="/vendor/css/bootstrap.min.css">
+	<script src="/vendor/js/bootstrap.min.js" defer></script>
 </head>
 <body>
-    <div class="head">
-        <div class="head-button" id="mainInfo">
-            <img class="image-button" src="/icons/iconDocument.png">
-        </div>
-        <div class="head-button" id="techDoc">
-            <img class="image-button" src="/icons/iconTechDocument.png">
-        </div>
-        <div class="head-button" id="download">
-            <img class="image-button" src="/icons/iconDownload.png">
-        </div>
-        <div class="head-button" id="ask">
-            <img class="image-button" src="/icons/iconAsk.png">
+    <div class="container-fluid text-center header fixed">
+        <div class="row align-items-start">
+            <div class="col" id="mainInfo">
+                Основаная<br class="none-br"> информация
+            </div>
+            <div class="col" id="techDoc">
+                Технические характеристики
+            </div>
+            <div class="col" id="download">
+                Методическое<br class="none-br"> указание
+            </div>
+            <div class="col" id="ask">
+                Обратная <br class="none-br"> связь
+            </div>
         </div>
     </div>
 
-    <div class="container container-main-info">
+    <!-- Этот контейнер нужен для адекватного отступа у содержимого страницы -->
+    <div class="container-fluid text-center header">
+        <div class="row align-items-start">
+            <div class="col">
+                Основаная<br class="none-br"> информация
+            </div>
+            <div class="col">
+                Технические характеристики
+            </div>
+            <div class="col">
+                Методическое <br class="none-br">указание
+            </div>
+            <div class="col">
+                Обратная <br class="none-br">связь
+            </div>
+        </div>
+    </div>
+
+    <div class="cont container-main-info">
         <h1 class="header-text">Осциллограф универсальный</h1>
         <img class="image" src="/image/Осциллограф/осциллограф.jpg">
         <p class="text">Осциллограф предназначен для визуального наблюдения и исследования электрических сигналов в диапазоне частот (0 — 5) МГц путем: измерения амплитудных и временных параметров исследуемого сигнала; одновременного изображения двух исследуемых сигналов на одной развертке; изображения функциональных зависимостей между двумя сигналами в режиме X-Y.
             С1-83 позволяет производить измерения напряжений в диапазоне 400 мкВ — 200 В и временных интервалов в диапазоне 400 нс — 20 с. Применяется в лабораторных, цеховых и полевых условиях.</p>
     </div>
 
-    <div class="container container-tech-doc none">
+    <div class="cont container-tech-doc none">
         <p class="text">Технические характеристики осциллографа С1-83</p>
         <ul>
             <li>Размер ЭЛТ: 120х100 мм (10х8 дел.)</li>
@@ -64,11 +88,11 @@
         </ul>
     </div>
 
-    <div class="container container-download none">
+    <div class="cont container-download none">
         <a>Скачать методическое указание</a>
     </div>
 
-    <div class="container container-ask none">
+    <div class="cont container-ask none">
         <p>По поводу Ваших идей, вопросов и проектов можете писать на почту akitakit@mail.ru</p>
     </div>
 

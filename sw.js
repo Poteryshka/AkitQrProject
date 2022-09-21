@@ -15,9 +15,13 @@ const assets = [
     'image/Выпрямитель/scheme2.png',
     'YMC-2051-8515/YMC-2051-8515.html',
     'Солнечный-трекер/Солнечный-трекер.html',
-    //'Сфетофоры/Светофоры.html',
-    //'Осциллограф/Осциллограф.html',
-    //'Выпрямитель/Выпрямитель.html',
+    'vendor/js/jquery-3.3.1.slim.min.js',
+    'vendor/css/bootstrap.min.css',
+    'vendor/js/popper.min.js',
+    'vendor/js/bootstrap.min.js',
+    'Сфетофоры/Светофоры.html',
+    'Осциллограф/Осциллограф.html',
+    'Выпрямитель/Выпрямитель.html',
 ];
 
 self.addEventListener('install', evt => {

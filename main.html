@@ -6,17 +6,49 @@
     <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
     <title>Document</title>
     <link rel="manifest" href="/manifest.json">
+    <link rel="stylesheet" href="/style.css"/>
     <script src="register.js"></script>
+    <script src="vendor/js/jquery-3.3.1.slim.min.js" defer></script>
+	<script src="vendor/js/popper.min.js" async></script>
+	<link rel="stylesheet" href="vendor/css/bootstrap.min.css">
+	<script src="vendor/js/bootstrap.min.js" defer></script>
+    <style>
+        .cont{
+            text-align: center;
+            font-size: 4em;
+        }
+
+        .menuItem{
+            border: 2px solid black;
+            background-color: rgba(107, 132, 245, 0.342);
+        }
+
+        .menuItem:hover{
+            background-color: rgba(58, 93, 247, 0.61);
+        }
+
+        .menuItem a:hover{
+            color: white;
+        }
+    </style>
 </head>
 <body>
-    <a href="YMC-2051-8515/YMC-2051-8515.html">YMC-2051-8515</a>
-    <br>
-    <a href="Солнечный-трекер/Солнечный-трекер.html">Солнечный-трекер</a>
-    <br>
-    <a href="Светофоры/Светофоры.html">Светофоры</a>
-    <br>
-    <a href="Выпрямитель/Выпрямитель.html">Выпрямитель</a>
-    <br>
-    <a href="Осциллограф/Осциллограф.html">Осциллограф</a>
+    <div class="cont">
+        <div class="menuItem">
+            <a href="YMC-2051-8515/YMC-2051-8515.html">YMC-2051-8515</a>
+        </div>
+        <div class="menuItem">
+            <a href="Солнечный-трекер/Солнечный-трекер.html">Солнечный-трекер</a>
+        </div>
+        <div class="menuItem">
+            <a href="Светофоры/Светофоры.html">Светофоры</a>
+        </div>
+        <div class="menuItem">
+            <a href="Выпрямитель/Выпрямитель.html">Выпрямитель</a>
+        </div>
+        <div class="menuItem">
+            <a href="Осциллограф/Осциллограф.html">Осциллограф</a>
+        </div>
+    </div>
 </body>
 </html>

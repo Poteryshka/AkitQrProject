@@ -7,24 +7,48 @@
     <title>Document</title>
     <link rel="stylesheet" href="/style.css"/>
 	<link rel="stylesheet" href="/media.css"/>
+    <script src="/vendor/js/jquery-3.3.1.slim.min.js" defer></script>
+	<script src="/vendor/js/popper.min.js" async></script>
+	<link rel="stylesheet" href="/vendor/css/bootstrap.min.css">
+	<script src="/vendor/js/bootstrap.min.js" defer></script>
 </head>
 <body>
-    <div class="head">
-        <div class="head-button" id="mainInfo">
-            <img class="image-button" src="/icons/iconDocument.png">
-        </div>
-        <div class="head-button" id="techDoc">
-            <img class="image-button" src="/icons/iconTechDocument.png">
-        </div>
-        <div class="head-button" id="download">
-            <img class="image-button" src="/icons/iconDownload.png">
-        </div>
-        <div class="head-button" id="ask">
-            <img class="image-button" src="/icons/iconAsk.png">
+    <div class="container-fluid text-center header fixed">
+        <div class="row align-items-start">
+            <div class="col" id="mainInfo">
+                Основаная<br class="none-br"> информация
+            </div>
+            <div class="col" id="techDoc">
+                Технические характеристики
+            </div>
+            <div class="col" id="download">
+                Методическое<br class="none-br"> указание
+            </div>
+            <div class="col" id="ask">
+                Обратная <br class="none-br"> связь
+            </div>
         </div>
     </div>
 
-    <div class="container container-main-info">
+    <!-- Этот контейнер нужен для адекватного отступа у содержимого страницы -->
+    <div class="container-fluid text-center header">
+        <div class="row align-items-start">
+            <div class="col">
+                Основаная<br class="none-br"> информация
+            </div>
+            <div class="col">
+                Технические характеристики
+            </div>
+            <div class="col">
+                Методическое <br class="none-br">указание
+            </div>
+            <div class="col">
+                Обратная <br class="none-br">связь
+            </div>
+        </div>
+    </div>
+
+    <div class="cont container-main-info">
         <h1 class="header-text">Солнечный трекер</h1>
         <p class="text"><b>Автор:</b> студент группы ИТ-301М Ивахнов Дмитрий Сергеевич</p>
         <p class="text"><b>Научный руководитель:</b> к.т.н., доц. Колесников Андрей Валерьевич</p>
@@ -37,7 +61,7 @@
         <p class="text">Была выполнена разработка структурной и электрической схем для работы солнечно-го трекера, а также спроектирован и сделан гелиотрекер, и запрограммирован микрокон-троллер с подробным разбором кода его работы.</p>
     </div>
 
-    <div class="container container-tech-doc none">
+    <div class="cont container-tech-doc none">
         <p class="text">Платформа Arduino Nano (рус. Ардуино Нано) — открытая и компактная платформа с семейства Arduino, построенная на микроконтроллере ATmega328 (Arduino Nano 3.0) или ATmega168 (Arduino Nano 2.x), имеет небольшие размеры и может использоваться в лабораторных работах.</p>
         <p class="text">На плате используется чип FTDI FT232RL для USB-Serial преобразования и применяется mini-USB кабель для связи с ардуино вместо стандартного. Связь с различными устройствами обеспечивают UART, I2C и SPI интерфейсы.</p>
         <ul style="font-size: 1.5em;">Характеристики Arduino Nano V3.x ATmega328
@@ -61,11 +85,11 @@
         </ul>
     </div>
 
-    <div class="container container-download none">
+    <div class="cont container-download none">
         <a>Скачать методическое указание</a>
     </div>
 
-    <div class="container container-ask none">
+    <div class="cont container-ask none">
         <p>По поводу Ваших идей, вопросов и проектов можете писать на почту akitakit@mail.ru</p>
     </div>
 
