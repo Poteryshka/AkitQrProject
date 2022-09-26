@@ -7,6 +7,7 @@
     <title>Document</title>
     <link rel="manifest" href="/manifest.json">
     <link rel="stylesheet" href="/style.css"/>
+    <link rel="stylesheet" href="/media.css"/>
     <script src="register.js"></script>
     <script src="vendor/js/jquery-3.3.1.slim.min.js" defer></script>
 	<script src="vendor/js/popper.min.js" async></script>
@@ -21,6 +22,7 @@
         .menuItem{
             border: 2px solid black;
             background-color: rgba(107, 132, 245, 0.342);
+            font-size: 1em;
         }
 
         .menuItem:hover{
@@ -30,6 +32,30 @@
         .menuItem a:hover{
             color: white;
         }
+
+
+        @media (min-width: 761px){
+            .menuItem{
+                font-size: 1em;
+            }
+        }
+        @media (max-width: 760px) and (min-width: 371px){
+            .menuItem{
+                font-size: 0.8em;
+            }
+        }
+
+        @media (max-width: 370px) and (min-width: 271px){
+            .menuItem{
+                font-size: 0.6em;
+            }
+        }
+
+        @media (max-width: 270px){
+            .menuItem{
+                font-size: 0.4em;
+            }
+        }
     </style>
 </head>
 <body>
@@ -38,16 +64,16 @@
             <a href="YMC-2051-8515/YMC-2051-8515.html">YMC-2051-8515</a>
         </div>
         <div class="menuItem">
-            <a href="Солнечный-трекер/Солнечный-трекер.html">Солнечный-трекер</a>
+            <a href="solar-tracker/solar-tracker.html">Солнечный-трекер</a>
         </div>
         <div class="menuItem">
-            <a href="Светофоры/Светофоры.html">Светофоры</a>
+            <a href="traffic-lights/traffic-lights.html">Светофоры</a>
         </div>
         <div class="menuItem">
-            <a href="Выпрямитель/Выпрямитель.html">Выпрямитель</a>
+            <a href="transistor-rectifier/transistor-rectifier.html">Выпрямитель</a>
         </div>
         <div class="menuItem">
-            <a href="Осциллограф/Осциллограф.html">Осциллограф</a>
+            <a href="oscilloscope/oscilloscope.html">Осциллограф</a>
         </div>
     </div>
 </body>

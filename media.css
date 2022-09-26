@@ -12,6 +12,10 @@
     #formula-image{
         width: 20%;
     }
+    .image{
+        width: 50%;
+        margin-left: 25%;
+    }
 }
 
 @media (max-width: 1156px){
@@ -26,6 +30,10 @@
     }
     #formula-image{
         width: 30%;
+    }
+    .image{
+        width: 70%;
+        margin-left: 15%;
     }
 }
 
