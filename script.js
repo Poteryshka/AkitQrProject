@@ -2,6 +2,7 @@ const btnTechDoc = document.getElementById('techDoc')
 const btnMainInfo = document.getElementById('mainInfo')
 const btnDownload = document.getElementById('download')
 const btnAsk = document.getElementById('ask')
+const btnReloadCache = document.getElementById('reload-cache')
 
 let pageName = ['container-tech-doc', 'container-main-info', 'container-download', 'container-ask']
 
@@ -30,4 +31,12 @@ btnDownload.addEventListener('click', () => {
 
 btnAsk.addEventListener('click', () => {
     switchPage('container-ask')
+})
+
+btnReloadCache.addEventListener('click', () => {
+    caches.keys().then( cacheNames => {
+        cacheNames.forEach( cacheName => {
+            caches.delete(cacheName);
+        });
+    });
 })
